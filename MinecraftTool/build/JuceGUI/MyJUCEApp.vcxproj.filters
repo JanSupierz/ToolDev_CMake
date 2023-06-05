@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Howest\ToolDev\C++\MinecraftTool\JuceGUI\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Howest\ToolDev\C++\MinecraftTool\JuceGUI\MainComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Howest\ToolDev\C++\MinecraftTool\JuceGUI\TableModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Howest\ToolDev\C++\MinecraftTool\JuceGUI\NamedVector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Howest\ToolDev\C++\MinecraftTool\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Howest\ToolDev\C++\MinecraftTool\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Howest\ToolDev\C++\MinecraftTool\JUCE\modules\juce_graphics\juce_graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Howest\ToolDev\C++\MinecraftTool\JUCE\modules\juce_events\juce_events.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Howest\ToolDev\C++\MinecraftTool\JUCE\modules\juce_core\juce_core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Howest\ToolDev\C++\MinecraftTool\JUCE\modules\juce_data_structures\juce_data_structures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Howest\ToolDev\C++\MinecraftTool\build\JuceGUI\MyJUCEApp_artefacts\JuceLibraryCode\JuceHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Howest\ToolDev\C++\MinecraftTool\JuceGUI\MainComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Howest\ToolDev\C++\MinecraftTool\JuceGUI\TableModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Howest\ToolDev\C++\MinecraftTool\JuceGUI\NamedVector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Howest\ToolDev\C++\MinecraftTool\build\CMakeFiles\658a1d3521a40522751bd24a082ddcf4\resources.rc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Howest\ToolDev\C++\MinecraftTool\build\CMakeFiles\658a1d3521a40522751bd24a082ddcf4\JuceHeader.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Howest\ToolDev\C++\MinecraftTool\JuceGUI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Howest\ToolDev\C++\MinecraftTool\build\JuceGUI\MyJUCEApp_artefacts\JuceLibraryCode\resources.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2098842A-A1A1-3B68-88CB-A8A9B64DF556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2CD4E693-1073-3CE8-982F-E10DFAB91B20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C327B18D-BFCE-3584-A0D9-AB9E257B7C12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
