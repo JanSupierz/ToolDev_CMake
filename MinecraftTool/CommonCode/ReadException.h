@@ -4,10 +4,16 @@
 class ReadException final
 {
 public:
-	ReadException(const std::string& what);
+	ReadException(const std::string& what)
+		:m_What{ what } {}
+
 	~ReadException() = default;
 
-	void What() const;
+	std::string What() const
+	{
+		return "Read Exception: " + m_What + '\n';
+	}
+
 private:
 	std::string m_What{};
 };

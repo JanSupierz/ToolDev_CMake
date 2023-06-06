@@ -16,6 +16,8 @@ public:
 		bool 	rowIsSelected
 	)override;
 
+	void PushBack(const NamedVector3& vector);
+	void Clear();
 private:
 	std::vector<NamedVector3> m_Vectors;
 };

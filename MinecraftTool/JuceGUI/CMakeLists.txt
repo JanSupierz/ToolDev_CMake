@@ -7,7 +7,7 @@ set(SOURCES
 
 # Add an executable target for the project
 juce_add_gui_app(MyJUCEApp
-    PRODUCT_NAME "My Amzing Dog walking App"
+    PRODUCT_NAME "MinecraftToolGUI"
     VERSION ${PROJECT_VERSION}
     COMPANY_NAME "KoenSoft"
     DOCUMENT_EXTENSIONS "myext"
@@ -29,3 +29,15 @@ target_link_libraries(MyJUCEApp
         juce::juce_recommended_lto_flags
         juce::juce_recommended_warning_flags
 )
+
+message(STATUS "Linking with directory : ${JSONIncludeDir}")
+message(STATUS "Linking with directory : ${CommonCodeIncludeDir}")
+
+target_include_directories(
+	MyJUCEApp PUBLIC
+	"${PROJECT_BINARY_DIR}"
+	"${JSONIncludeDir}"
+	"${CommonCodeIncludeDir}"
+)
+
+target_link_directories(MyJUCEApp PUBLIC rapijson CommonCode)

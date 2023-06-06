@@ -28,5 +28,20 @@ private:
     juce::TableListBox m_DataTable;
     TableModel* m_pTableModel;
 
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
+    juce::FileChooser m_InputChooser;
+    juce::FileChooser m_OutputChooser;
+
+    juce::Label m_ErrorLabel;
+
+    juce::TextButton m_InputButton;
+    juce::TextButton m_OutputButton;
+    juce::TextButton m_OkButton;
+    juce::TextButton m_CancelButton;
+
+    std::wstring m_InputPath;
+    std::wstring m_OutputPath;
+
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(MainComponent)
+
+    void PrintContent(const std::wstring& filePath);
 };
