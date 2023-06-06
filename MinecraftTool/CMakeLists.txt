@@ -30,6 +30,8 @@ message(STATUS "${PROJECT_SOURCE_DIR}")
 install(TARGETS MinecraftTool DESTINATION bin)
 install(TARGETS MyJUCEApp DESTINATION bin)
 
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/Resources DESTINATION bin)
+
 include(InstallRequiredSystemLibraries)
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")
 set(CPACK_PACKAGE_VERSION_MAJOR "0")

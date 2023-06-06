@@ -1,0 +1,12 @@
+cmd - commandLine
+
+mkdir foldername
+
+cd foldername - in
+cd .. - back
+
+cmake ..
+cmake --build .
+
+cpack -C Debug
+cpack -G ZIP -C Debug

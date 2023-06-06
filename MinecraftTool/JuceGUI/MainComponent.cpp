@@ -2,6 +2,8 @@
 #include "ReadException.h"
 #include "MainComponent.h"
 
+#include <fstream>
+
 //==============================================================================
 MainComponent::MainComponent()
     : m_InputChooser("Select Input File", File(File::getSpecialLocation(File::userDocumentsDirectory)), "*.json", false)

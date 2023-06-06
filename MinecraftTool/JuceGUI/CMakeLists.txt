@@ -25,19 +25,16 @@ target_link_libraries(MyJUCEApp
         # GuiAppData            # If we'd created a binary data target, we'd link to it here
         juce::juce_gui_extra
     PUBLIC
+		CommonCode
         juce::juce_recommended_config_flags
         juce::juce_recommended_lto_flags
         juce::juce_recommended_warning_flags
 )
 
-message(STATUS "Linking with directory : ${JSONIncludeDir}")
-message(STATUS "Linking with directory : ${CommonCodeIncludeDir}")
+message(STATUS "Linking with library : ${CommonCodeIncludeDir}")
 
 target_include_directories(
 	MyJUCEApp PUBLIC
 	"${PROJECT_BINARY_DIR}"
-	"${JSONIncludeDir}"
 	"${CommonCodeIncludeDir}"
 )
-
-target_link_directories(MyJUCEApp PUBLIC rapijson CommonCode)
